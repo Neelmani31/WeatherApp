@@ -1,0 +1,19 @@
+.fields{
+    padding:  20px;
+    display: inline-block;
+    width: 30%;
+    position: absolute;
+}
+
+.map-block{
+    height:100%;
+    padding: 20px;
+    display: inline-block;
+    width: 70%;
+    position: absolute;
+    margin-left: 30%;
+}
+
+.btn-style{
+    cursor: pointer;
+}

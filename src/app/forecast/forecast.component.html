@@ -1,0 +1,62 @@
+<div *ngIf="data" class="weather-card one">
+  <div class="top" [ngClass]="data.icon">
+    <div class="wrapper">
+      <h1 class="heading">{{data.heading}}</h1>
+      <h3 class="location">{{data.location}}</h3>
+      <p class="temp">
+        <span class="temp-value">{{data.temperature | number : '1.2-2'}}</span>
+        <span class="deg">0</span>
+        <a href="javascript:;">
+          <span class="temp-type">C</span>
+        </a>
+      </p>
+    </div>
+  </div>
+</div>
+
+<!-- <div class="card img-fluid" style="width:500px">
+  <img class="card-img-top" src="img_avatar1.png" alt="Card image" style="width:100%">
+  <div class="card-img-overlay">
+    <h4 class="card-title">John Doe</h4>
+    <p class="card-text">Some example text some example text. Some example text some example text. Some example text some example text. Some example text some example text.</p>
+    <a href="#" class="btn btn-primary">See Profile</a>
+  </div>
+</div> -->
+
+		
+			<!-- <div class="weather-card rain">
+				<div class="top">
+					<div class="wrapper">
+						<div class="mynav">
+							<a href="javascript:;"><span class="lnr lnr-chevron-left"></span></a>
+							<a href="javascript:;"><span class="lnr lnr-cog"></span></a>
+						</div>
+						<h1 class="heading">Rainy day</h1>
+						<h3 class="location">Sylhet, Bangladesh</h3>
+						<p class="temp">
+							<span class="temp-value">16</span>
+							<span class="deg">0</span>
+							<a href="javascript:;"><span class="temp-type">C</span></a>
+						</p>
+					</div>
+				</div>
+				<div class="bottom">
+					<div class="wrapper">
+						<ul class="forecast">
+							<a href="javascript:;"><span class="lnr lnr-chevron-up go-up"></span></a>
+							<li class="active">
+								<span class="date">Yesterday</span>
+								<span class="lnr lnr-sun condition">
+									<span class="temp">22<span class="deg">0</span><span class="temp-type">C</span></span>
+								</span>
+							</li>
+							<li>
+								<span class="date">Tomorrow</span>
+								<span class="lnr lnr-cloud condition">
+									<span class="temp">18<span class="deg">0</span><span class="temp-type">C</span></span>
+								</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div> -->
